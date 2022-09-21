@@ -17,7 +17,7 @@ body{
 }
 
 main{
-    width: 40%;
+    width: 45%;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -54,6 +54,12 @@ button{
     cursor: pointer;
 
 }
+
+button:hover{
+
+    background-color: #d4f39b;
+}
+
 #output{
     color:solid brown;
     
@@ -78,5 +84,37 @@ div{
     float: right;
     margin: 8rem auto;
     align-items: right;
+}
+
+
+
+p{
+    display: flex;
+    flex-direction: column;
+    color: #de0c8d;
+    font-family: cursive;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    margin-left: 2px;
+}
+
+#footer-id{
+    color: black;
+}
+
+a, img, li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    width: 2rem;
+    gap:20px;
+    padding: 2px;
+    margin-right: 3px;
+    color:#d4f39b;
+    border-inline-end-color:#d4f39b; ;
+    /* background-color: #d4f39b; */
 }
 
