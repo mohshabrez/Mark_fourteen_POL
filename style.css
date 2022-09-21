@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Roboto+Mono&display=swap');
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 12, 12);
+}
+
+main{
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 16px;
+    background-image: linear-gradient(0deg, #8ad0da 0%, #d4f39b 100%);
+    border-radius: 12px;
+    box-shadow: rgb(248, 246, 246) 0px 2px 8px 0px;
+
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    border: 0.5px solid #555;
+
+}
+button{
+    padding: 0.4rem 0.8rem;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #963d7b;
+    border-radius: 12px;
+    border: none;
+    color: rgb(228, 227, 227);
+    cursor: pointer;
+
+}
+#output{
+    color:solid brown;
+    
+}
+
+div{
+    position: relative;
+}
+
+#img1{
+    width: 20%;
+    text-align: left;
+    float: left;
+    margin: 8rem auto;
+    align-items: left;
+    
+}
+
+#img2{
+    width: 20%;
+    text-align: right;
+    float: right;
+    margin: 8rem auto;
+    align-items: right;
+}
+

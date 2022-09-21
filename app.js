@@ -8,17 +8,17 @@ function calculateProfitAndLoss(initial, quantity, current){
     if(initial > current){
         var loss = ((initial - current) * quantity).toFixed(2);
         var lossPercentage = (loss/initial) *100;
-        showOutput( `Hey the loss is ${loss} and the percent is ${lossPercentage}%`);
+        outputBox.innerText = `Hey the loss is ${loss} and the percent is ${lossPercentage}%`;
 
     }
     else if(current > initial){
         var profit = ((current - initial) * quantity).toFixed(2);
         var profitPercentage = (profit / initial) * 100;
-        showOutput( `Hey the profit is ${profit} and the percent is ${profitPercentage}%`);
+       outputBox.innerText =  `Hey the profit is ${profit} and the percent is ${profitPercentage}%`;
 
     }
     else{
-        showOutput( `No Pain No gain`);
+        outputBox.innerText = `No Pain No gain`;
 
     }
 }
@@ -30,8 +30,8 @@ function submitHandler(){
     calculateProfitAndLoss(ip, qty, curr);
 }
 
-function showOutput(message, status){
-    outputBox.innerHTML = message;
-}
+// function showOutput(message, status){
+//     outputBox.innerHTML = message;
+// }
 
 submitButton.addEventListener("click", submitHandler)
